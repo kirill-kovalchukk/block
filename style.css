@@ -1,0 +1,29 @@
+@keyframes block {
+    0% {
+        background-color: blue;
+        transform: translate(0, 100%);
+        }
+        25% {
+        background-color: green;
+        transform: translate(100%, 100%);
+        }
+        50% {
+        background-color: yellow;
+        transform: translate(100%, 0);
+        }
+        75% {
+        background-color: red;
+        transform: translate(0, 0);
+        }
+        100%{
+            background-color: blue;
+            transform: translate(0, 100%);
+        }
+        }
+        
+        .block {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        animation: block 3s linear infinite;
+        }
